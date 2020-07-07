@@ -39,6 +39,11 @@ cd qemu-xtensa-esp32
 make -j2
 
 
+cd ~
+wget https://github.com/JotaCe7/iemfirmware/blob/master/Dockerfiles/builder/docker_setup.sh
+./docker_setup.sh
+
+
 ###########################################
 ### This is for setting up the building ###
 ###########################################
