@@ -12,5 +12,5 @@ ENV GITHUB_ACCESS_TOKEN $GITHUB_ACCESS_TOKEN
 WORKDIR /root/firmware
 
 
-COPY docker_setup.sh /root/firmware/docker_setup.sh
+COPY ./docker_setup.sh /root/firmware/docker_setup.sh
 RUN ./docker_setup.sh
