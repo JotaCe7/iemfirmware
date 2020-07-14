@@ -53,5 +53,5 @@ wget https://github.com/JotaCe7/iemfirmware/blob/master/Dockerfiles/builder/dock
 wget https://bootstrap.pypa.io/get-pip.py && \
 python get-pip.py && \
 pip install pyserial
-apt-get install nano
+apt-get install nano clang-format clang-tidy
 
